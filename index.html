@@ -14,16 +14,6 @@
     rel="stylesheet">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
@@ -38,7 +28,7 @@
           <a class="contact" href="#">Contact</a>
         </nav>
         <div>
-          <img class="menu-bar" src="./images/icon-hamburger.svg" alt="menu-bar">
+          <img id="menu-bar" class="menu-bar" src="./images/icon-hamburger.svg" alt="menu-bar">
         </div>
       </div>
       <h1>We are creatives</h1>
@@ -125,18 +115,18 @@
         </section>
       </div>
     </section>
-    <section class="images">
+    <div class="images">
       <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
       <img src="./images/desktop/image-gallery-orange.jpg" alt="ripe-cut-orange">
       <img src="./images/desktop/image-gallery-cone.jpg" alt="icecream cone">
       <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugarcubes in pink background">
-    </section>
-    <section class="mobile-images">
+    </div>
+    <div class="mobile-images">
       <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="milkbottles">
       <img src="./images/mobile/image-gallery-orange.jpg" alt="ripe-cut-orange">
       <img src="./images/mobile/image-gallery-cone.jpg" alt="icecream cone">
       <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="sugarcubes in pink background">
-    </section>
+    </div>
     
     <footer>
       <img class="logo-two" src="./images/logo.svg" alt="logo">
@@ -163,11 +153,15 @@
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Lawrenebube</a>.
       </div>
-      
+        <nav id="menu" class="menu">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#"> Projects</a>
+          <a class="contact" href="#">Contact</a>
+        </nav>
     </footer>
-
   </div>
   
 </body>
-
+<script src="index.js"></script>
 </html>
